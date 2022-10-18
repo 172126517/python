@@ -14,8 +14,8 @@ driver = webdriver.Chrome()
 driver.get('https://dukou.dev/')
 
 # 找到邮件和密码输入框的ID,并在对应的位置送入账号密码
-username = "172126517@qq.com"
-Password = "Traveler1314"
+username = "17*****@qq.com"
+Password = "Tr******"
 try:
     driver.find_element(By.ID, "email").send_keys(username)
 except NoSuchElementException:
